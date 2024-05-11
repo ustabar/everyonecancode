@@ -4,6 +4,7 @@
 
 name: Build and deploy Python app to Azure Web App - eccbarut
 
+
 on:
   push:
     branches:
