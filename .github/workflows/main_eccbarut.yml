@@ -72,7 +72,7 @@ jobs:
 
       - uses: azure/appservice-settings@v1
         with:
-          app-name: 'Kermitgram'
+          app-name: 'milligram'
           app-settings-json: '[{ "name": "CHAT_API_KEY", "value": "${{ secrets.CHAT_API_KEY }}", "slotSetting": false }, { "name": "CHAT_API_ENDPOINT", "value":  "${{ secrets.CHAT_API_ENDPOINT }}", "slotSetting": false }, { "name": "AZURE_OPENAI_MODEL_NAME", "value": "${{ secrets.AZURE_OPENAI_MODEL_NAME }}", "slotSetting": false }]'
         id: settings
         
